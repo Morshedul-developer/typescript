@@ -11,3 +11,13 @@ const anotherFunc = (a: string, b: string) => {
 };
 
 anotherFunc("Alice", "Bob"); // This will output: Hello, Alice and Bob!
+
+
+//! optional parameters in TypeScript functions can be defined by adding a question mark (?) after the parameter name. Here's an example:
+
+const myFunc2 = (a: string, b: string, c?: string) => {
+    console.log(`Hi, ${c}!`);
+    console.log(`Hello, ${a} and ${b}!`);
+};
+
+myFunc2("Alice", "Bob"); // This will output: Hello, Alice and Bob!
