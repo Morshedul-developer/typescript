@@ -21,3 +21,12 @@ const myFunc2 = (a: string, b: string, c?: string) => {
 };
 
 myFunc2("Alice", "Bob"); // This will output: Hello, Alice and Bob!
+
+//! default parameters in TypeScript functions can be defined by assigning a default value to the parameter. Here's an example:
+
+const myFunc3 = (a: string, b: string, c: string = "Charlie") => {
+    console.log(`Hi, ${c}!`);
+    console.log(`Hello, ${a} and ${b}!`);
+};
+
+myFunc3("Alice", "Bob");
