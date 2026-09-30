@@ -8,3 +8,6 @@ calc = (a: number, b: number, c: string) => {
         return a - b;
     }
 }
+
+calc(10, 5, 'add'); // returns 15
+calc(10, 5, 'subtract'); // returns 5
