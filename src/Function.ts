@@ -30,3 +30,13 @@ const myFunc3 = (a: string, b: string, c: string = "Charlie") => {
 };
 
 myFunc3("Alice", "Bob");
+
+
+//! function return types in TypeScript can be explicitly defined by adding a colon (:) followed by the return type after the parameter list. Here's an example:
+
+const myFunc4 = (a: string, b: string): string => {
+    return `Hello, ${a} and ${b}!`;
+};
+
+const result = myFunc4("Alice", "Bob");
+console.log(result); // This will output: Hello, Alice and Bob!
