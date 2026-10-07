@@ -8,4 +8,8 @@ class Player {
     this.age = a;
     this.country = c;
   }
+
+  play() {
+    console.log(`${this.name} is playing.`);
+  }
 }
