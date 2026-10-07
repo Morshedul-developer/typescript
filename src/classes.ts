@@ -19,3 +19,9 @@ player1.play(); // Output: John is playing.
 
 player1.age = 26; // Updating the age
 console.log(`${player1.name} is now ${player1.age} years old.`); // Output: John is now 26 years old.
+
+const players: Player[] = [];
+
+players.push(player1);
+
+console.log(players); // Output: [ Player { name: 'John', age: 26, country: 'USA' } ]
