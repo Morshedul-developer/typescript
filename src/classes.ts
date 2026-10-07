@@ -13,3 +13,9 @@ class Player {
     console.log(`${this.name} is playing.`);
   }
 }
+
+const player1 = new Player("John", 25, "USA");
+player1.play(); // Output: John is playing.
+
+player1.age = 26; // Updating the age
+console.log(`${player1.name} is now ${player1.age} years old.`); // Output: John is now 26 years old.
